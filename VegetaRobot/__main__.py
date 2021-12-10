@@ -79,12 +79,12 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ──『[SAIYAN VEGETA](https://telegra.ph/file/561fa547f3c4940c95ddf.jpg)』
+ ──『[MAYIL](https://telegra.ph/file/53a09a77ff2fbab471279.jpg)』
 
 Hey User!!✋
-𝐈 Am *Prince Vegeta* Add 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐈 𝐖𝐢𝐥𝐥 𝐃𝐞𝐬𝐭𝐫𝐨𝐲 𝐄𝐯𝐢𝐥𝐬 𝐖𝐢𝐭𝐡 𝐌𝐲 Powers...\n
+𝐈 Am Mayil I Am Powerful Group Manager Bot Add Me To Your Group I Will Destroy Zombies With My Power...\n
 *JOIN OFFICIAL* -
-[CHANNEL](t.me/pegasusUpdates) - [SUPPORT](t.me/pegasusSupportChat)\n
+[CHANNEL](t.me/mgbotslists) - [SUPPORT](t.me/MG_Support_Group)\n
 ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
 """
 
@@ -92,11 +92,11 @@ buttons = [
     [
         InlineKeyboardButton(
                             text="☑ Add Vegeta to Group ☑",
-                            url="t.me/VegetaRobot?startgroup=true"),
+                            url="t.me/Mayil_The_Group_Manager_Bot?startgroup=true"),
                     ],
                    [
-                       InlineKeyboardButton(text="🌐 Network", url="t.me/pegasusXteam"),
-                       InlineKeyboardButton(text="🔔 Logs", url="t.me/pegasusLogs"),
+                       InlineKeyboardButton(text="🌐 Network", url="t.me/TeamMonsterBots),
+                       InlineKeyboardButton(text="🔔 Logs", url="t.me/mayilbotslogs"),
                      ],
                     [                  
                        InlineKeyboardButton(
@@ -113,7 +113,7 @@ buttons = [
 ] 
 
 HELP_STRINGS = """
-Hey there, I'm *Vegeta*!
+Hey there, I'm *Mayil*!
 To make me functional, make sure that i have enough rights in your group.
 Helpful commands:
 - /start: Starts me! You've probably already used this.
@@ -128,9 +128,9 @@ List of all the Modules:
 )
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """Contact to **@PegasusXrobot**"""
-HELP_IMG= "https://telegra.ph/file/9d2c6e3b28afe7619856e.jpg"
-GROUPSTART_IMG= "https://telegra.ph/file/1cbafa58dda18528f9e0c.mp4"
+DONATE_STRING = """Contact to **@MG_Support_Group**"""
+HELP_IMG= "https://telegra.ph/file/53a09a77ff2fbab471279.jpg"
+GROUPSTART_IMG= "https://telegra.ph/file/7cf9d368347d85881c9d4.mp4"
 
 STICKERS = ( "CAACAgUAAx0CXss_8QABAjzEYaXnOPwfLA22Dea6kU6EvrELQWgAAmoEAAIYaChVcBl8nrGetAIiBA",
            "CAACAgUAAx0CXss_8QABAjzFYaXnObthrCpGkPRRNr471UrxAxsAAgEEAAKqVjBVdLdGaDAs3noiBA",
@@ -258,7 +258,7 @@ def start(update: Update, context: CallbackContext):
                 [
                   [
                   InlineKeyboardButton(text="✧ Support ", url=f"https://telegram.dog/{SUPPORT_CHAT}"),
-                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/VegetaUpdates"),
+                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/mgbotslists"),
                   ]
                 ]
             ),
@@ -693,7 +693,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}","[SUPER SAIYAN VEGETA IS BACK](https://telegra.ph/file/d3db0babad0d1729c5f59.jpg)", parse_mode=ParseMode.MARKDOWN) 
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}","[Villven Enru Ninai Thaayo](https://telegra.ph/file/f8149dbf3445930e1bd05.jpg)", parse_mode=ParseMode.MARKDOWN) 
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
